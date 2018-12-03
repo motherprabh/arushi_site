@@ -2582,6 +2582,16 @@ p {
   .footer-social {
     text-align: left;
   }
+  .img-fluid
+  {
+    display: none;
+  }
+  .services-list
+  {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 .single-footer-widget {
