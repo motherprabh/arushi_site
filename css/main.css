@@ -756,6 +756,10 @@ td, th {
   .no-flex-xs {
     display: block !important;
   }
+  .services-list
+  {
+    text-align: center;
+  }
 }
 
 .row.no-margin {
@@ -2588,9 +2592,13 @@ p {
   }
   .services-list
   {
-    text-align: center;
+    
     padding-left: 50px;
     padding-right: 50px;
+  }
+  .services-list-2
+  {
+    margin-top: -20px;
   }
 }
 
