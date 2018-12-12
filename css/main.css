@@ -2731,4 +2731,13 @@ p {
     max-width: 500px;
     width: 100%;
   }
+  
+}
+@media (min-width: 767px) {
+  .zor-push-bottom {
+    bottom: 0;
+              position: absolute;
+              width: 90%;
+  }
+  
 }
