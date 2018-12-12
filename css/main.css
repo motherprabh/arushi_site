@@ -2130,7 +2130,7 @@ nav a:hover {
 }
 
 .sticky-wrapper {
-  height: 48px !important;
+  /* height: 48px !important; */
 }
 
 .banner-area {
@@ -2588,7 +2588,12 @@ p {
   }
   .img-fluid-s
   {
-    display: none;
+    /* display: none; */
+  }
+  .header_text_content
+  {
+    display: block;
+    width: 100%;
   }
   .services-list
   {
@@ -2708,4 +2713,22 @@ p {
 
 .footer-text a, .footer-text i {
   color: #2482ff;
+}
+
+
+/* Zor custom */
+
+
+@media (max-width: 1000px) {
+  .zor-banner {
+    margin-top:20px;
+  }
+  .zor-girl {
+    order: -1;
+    display: block !important;
+  }
+  .zor-girl img {
+    max-width: 500px;
+    width: 100%;
+  }
 }
