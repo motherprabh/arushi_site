@@ -1,6 +1,24 @@
 
 $(document).ready(function(){
-	"use strict";
+  "use strict";
+  
+  $('#a_service').click(function() {
+    $('html, body').animate({
+      scrollTop: $("#service").offset().top - 40
+    }, 1000)
+  })
+
+  $('#a_faq').click(function() {
+    $('html, body').animate({
+      scrollTop: $("#faq").offset().top - 40
+    }, 1000)
+  })
+
+  $('#a_appointment').click(function() {
+    $('html, body').animate({
+      scrollTop: $("#appointment").offset().top - 100
+    }, 1000)
+  })
 
 	var window_width 	 = $(window).width(),
 	window_height 		 = window.innerHeight,
