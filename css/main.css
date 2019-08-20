@@ -1993,6 +1993,14 @@ nav a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+.banner-content {
+  background: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .primary-btn {
   line-height: 42px;
   padding-left: 30px;

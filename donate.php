@@ -1,9 +1,9 @@
 <?php
     $to = 'demo@spondonit.com';
-    $from = $_POST["name"];
-    $from = $_POST["phone"];
-    $from = $_POST["date"];
-    $from = $_POST["message"];
+    $name = $_POST["name"];
+    $phone = $_POST["phone"];
+    $date = $_POST["date"];
+    $message = $_POST["message"];
 
 
 
